@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumpgun.Core", "Jumpgun.Core\Jumpgun.Core.csproj", "{4D4F13BC-95AE-45E6-A588-16B0ABBB3402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumpgun.API", "Jumpgun.API\Jumpgun.API.csproj", "{A1819357-0A80-4015-9CD8-C8C8CFAA040C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumpgun.Tests", "Jumpgun.Tests\Jumpgun.Tests.csproj", "{4349BFAB-472B-4785-ACB9-47605FD63B0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D4F13BC-95AE-45E6-A588-16B0ABBB3402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4F13BC-95AE-45E6-A588-16B0ABBB3402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4F13BC-95AE-45E6-A588-16B0ABBB3402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4F13BC-95AE-45E6-A588-16B0ABBB3402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1819357-0A80-4015-9CD8-C8C8CFAA040C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1819357-0A80-4015-9CD8-C8C8CFAA040C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1819357-0A80-4015-9CD8-C8C8CFAA040C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1819357-0A80-4015-9CD8-C8C8CFAA040C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4349BFAB-472B-4785-ACB9-47605FD63B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4349BFAB-472B-4785-ACB9-47605FD63B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4349BFAB-472B-4785-ACB9-47605FD63B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4349BFAB-472B-4785-ACB9-47605FD63B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
