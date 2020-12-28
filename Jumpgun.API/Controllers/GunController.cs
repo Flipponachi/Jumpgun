@@ -18,7 +18,7 @@ namespace Jumpgun.API.Controllers
 
         public async Task<IActionResult> Dummy()
         {
-            return Ok("DUmmy text");
+            return Ok("Dummy text");
         }
     }
 }
