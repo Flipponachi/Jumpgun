@@ -3,20 +3,27 @@ pipeline{
 
     stages{
         stage('Cloning'){
-            echo 'Cloning ....'
+            steps{
+                echo 'Cloning...'
+            }
         }
         stage('Build'){
-            echo 'Building...'
+           steps{
+                echo 'Building'
+           }
         }
         stage('Test'){
-            echo 'Testing'
+            steps{
+                echo 'Testing'
+            }        
         }
         stage('Docker Actions'){
-            echo 'Docker building'
+            steps{
+                echo 'Docker Building ${BUILD.ID}'
+            }
+           
         }
-        stage('Deploying'){
-            echo 'Deploying'
-        }
+       
         
     }
 }
