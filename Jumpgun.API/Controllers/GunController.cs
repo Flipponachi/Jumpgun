@@ -16,6 +16,7 @@ namespace Jumpgun.API.Controllers
             return Ok(new List<string>(){"Grimm", "X-Files", "X-Men", "Maximos"});
         }
 
+        [HttpGet]
         public async Task<IActionResult> Dummy()
         {
             string dummyText = "Dummy text";
